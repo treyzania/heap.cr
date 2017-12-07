@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   heap:
-    github: [your-github-name]/heap
+    github: mattrberry/heap
 ```
 
 ## Usage
@@ -18,15 +18,18 @@ dependencies:
 require "heap"
 ```
 
-TODO: Write usage instructions here
+Just run this to figure out how to use it:
+```bash
+grep -E '^\s*def' src/heap.cr
+```
 
 ## Development
 
-TODO: Write development instructions here
+*What else is there left to work on?*
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/heap/fork )
+1. Fork it ( https://github.com/mattrberry )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -34,4 +37,6 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Matthew Berry - creator, maintainer
+- [Matthew Berry](https://github.com/mattrberry) - creator, maintainer
+- [Trey Del Bonis](https://github.com/treyzania) - guy who fixed the readme
+
